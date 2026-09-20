@@ -1,0 +1,7 @@
+用户端为纯静态网页（jQuery+layui+Vue），已完整保留在后端 src/main/resources/front/front/ 目录中，由后端直接托管，无需单独启动任何前端服务。
+
+使用方法：
+1. 先导入 4.MysqlDatabase 中的数据库脚本，并确认 1.JavaSpringBoot/src/main/resources/application.yml 中数据库密码与本机一致
+2. 启动后端（IDEA运行主类，或 mvn spring-boot:run）
+3. 浏览器访问用户端：http://localhost:8080/springbootyiny8vh/front/index.html
+   （若修改过后端端口，请同步修改地址中的端口）
